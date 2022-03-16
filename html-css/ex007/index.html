@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Textos</title>
+    <!--Essa maneira fara com que todos os marks da página fiquem com a mesma cor, é meio que a tag geral para colorir todos, quando por exemplo existirem marks demais para serer coloridos.-->
+    <style>
+        mark {
+            background-color: rgb(94, 231, 94)
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -14,5 +20,19 @@
     <h2>Itálico / Ênfase</h2>
     <p>Nesta frase temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
     <p> Já nesta outra frase temos um outro <EM>termo em ênfase</EM>, agora usando a tag EM (semântico).</p>
+    <h2>Texto marcado</h2>
+    <!--Essa formatação especifica com o style, ja esta usando css, e é uma boa forma para se usar, essa maneira colocando style dentro da tag sendo a segunda maneira.-->
+    <p>Podemos também criar <mark style="background-color: lime">um texto marcado</mark> usando a tag MARK.</p>
+    <h2>Texto grande e Texto pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> em <small>texto pequeno</small> neste paragrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del> para que ele possa ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo <sup>x20+3</sup></p>
+    <h2>Texto subescrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
 </body>
 </html>
