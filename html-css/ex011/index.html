@@ -15,5 +15,16 @@
         <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
         <img src="images/foto-g.png" alt="Imagem Flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--Esse é um jeito paralelo de fazer, mas que nem sempre funciona e a compatibilidade é mais reduzida: <audio src="media/cartoon_on_on.mp3" controls autoplay></audio>-->
+    <audio controls>
+        <!--Neste caso abaixo coloquemos 3 formatos do mesmo audio, se o navegador não suportar o primeiro tenta o segundo, senao o terceiro. E se não der nenhum, há a opção de dowwnload.-->
+        <source src="media/cartoon_on_on.mp3" type="audio/mpeg">
+        <source src="media/cartoon_on_on.wav" type="audio/wav">
+        <source src="meida/cartoon_on_on.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não é consegue reproduzir áudio. <a href="media/cartoon_on_on.mp3">Clique aqui</a> para fazer o download do arquivo MP3.</p>
+    </audio>
 </body>
 </html>
