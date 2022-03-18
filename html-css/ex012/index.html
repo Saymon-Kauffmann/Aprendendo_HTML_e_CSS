@@ -10,12 +10,16 @@
     <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeo esta hospedado no meu própio sercidor.</p>
     <!--Semelhante aos outros formatos, audio e link de imagens, ele vai recomendar o modo mais simples, que é <video src="media/video_programacaoLEVE.mp4"></video>-->
-    <video controls>
+    <video width="550" poster="images/mulher-dev.png" controls loop>
         <!--Lembresse de colocar por primeiro o arquivo que você quer que o navegador tente executar por primeiro.-->
         <source src="media/video_programacaoLEVE.mp4" type="video/mp4">
         <source src="media/video programacaoMKV.mkv" type="video/mkv">
         <source src="media/video_programacaoWEBM.webm" type="video/webm">
         <p>Seu navegador não tem compatibilidade com esse formato de vídeo. <a href="media/video_programacaoMP4.mp4">Clique aqui</a> para baixar o vídeo completo, em formato MP4.</p>
     </video>
+
+    <h1>Vídeo incorporado do Youtube usando HTML5</h1>
+    <p>Um video de performance dessa cantora maravilhosa, e dessa musica fodastica muito boa e nostalgica!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/stu_FQm-q4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
