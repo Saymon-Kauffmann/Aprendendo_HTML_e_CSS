@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos Externos CSS</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <!--Lembresse tambem que voce pode usar css interno e externo, e ate mesmoo inline(não recomendado), tudo no mesmo arquivo. Por exemplo aqui abaixo se você quiser mudar o <h1> dessa pagina em especifico: -->
+    <style>
+        h1 {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h1>Capitulo 1</h1>
@@ -16,6 +22,6 @@
     <h1>Capitulo 2</h1>
     <h2>Capitulo 2.1</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque possimus voluptatibus fuga quisquam autem cumque sapiente, unde omnis quos? Repellat, corrupti? Assumenda nostrum modi molestiae error sit ut consequuntur.</p>
-    <p><a href="pagina02.html" target="_self">Ir para a página 2</a></p>
+    <p style="text-align: right"><a href="pagina02.html" target="_self">Ir para a página 2</a></p>
 </body>
 </html>
