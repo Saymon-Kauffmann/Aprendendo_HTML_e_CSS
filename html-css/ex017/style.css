@@ -2,4 +2,22 @@
 
 body {
     font-family: Arial;
+    font-size: 1em;
+}
+
+h1 {
+    /* 
+    No lugar de usar os comandos abaixo para definir o h1: 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+
+    Podemos simplesmente fazer um "shorthand font" e condessar todos em uma linha de código só. Tal os códigos devem ser escritos na seguinte ordem:
+    shorthand font:
+
+    - font-style -> font-weight -> font-size -> font-family
+    Ficando como resultado final da maneira que esta escrita abaixo:
+    */
+    font: italic bold 3em sans-serif;
 }
