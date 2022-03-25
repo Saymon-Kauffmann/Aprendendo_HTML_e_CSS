@@ -6,21 +6,32 @@
 */ 
 
 body {
-    background-color: rgb(205, 255, 203);
+    background-color: #E2D3FF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1#diferente {
     text-align: center;
-    background-color: rgb(4, 109, 0);
-    color: white;
+    background-color: #CDB8FF;
+    color: #69529E;
 }
 
 h1 {
-    color: rgb(4, 109, 0)
+    color: #AD92EB;
 }
 
 h2 {
-    color: rgb(73, 109, 71)
+    color: #AF91EB;
 }
 
+.basico {
+    color: purple;
+}
+
+.intermediario {
+    color: rgb(240, 87, 113);
+}
+
+.avancado {
+    color: lightcoral;
+}
