@@ -4,13 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <style>
+
+        /*  Seletores Personalizados
+            #  =  id
+            .  =  class
+            :  =  pseudo-class
+            :: =  pseudo-element
+            >  =  children
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*Exemplos de pseudo-classes*/
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        /*Exemplo de pseudo-elemento, e exemplo a seguir colocava a mensagem de link apos os links, semelhante ao uso da seta. ( content: ' [link] '; )*/
+        a::after {
+            content: ' ← ';
+        }
+
+        a::before {
+            content: ' → ';
+        }
+    </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li><a href="https://github.com/Saymon-Kauffmann/Aprendendo_HTML_e_CSS">Repositório GitHub</a></li>
-        <li><a href="https://github.com/Saymon-Kauffmann">Perfil GitHub</a></li>
-        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVideo</a></li>
+        <li><a href="https://github.com/Saymon-Kauffmann/Aprendendo_HTML_e_CSS" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://github.com/Saymon-Kauffmann" target="_blank">Perfil GitHub</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
     </ul>
 </body>
 </html>
