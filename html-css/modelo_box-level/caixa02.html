@@ -5,9 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 1em;
+            margin: 1em;
+        }
+
+        main {
+            background-color: white;
+            padding: 1em;
+            margin: 1em;
+        }
+
+        nav {
+            background-color: rgb(131, 131, 131);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(155, 155, 155);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
-    <div></div>
-    <span></span>
+    <header>
+        <h1>My Site</h1>
+        <nav>
+            <a href="http://a">Link1</a>
+            <a href="http://b">Link2</a>
+            <a href="http://c">Link3</a>
+            <a href="http://d">Link4</a>
+            <a href="http://e">Link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="subjects">
+            <p>Sports and technology</p>
+        </section>
+        <section id="news">
+            <article>
+                <h2>The last News About Canada</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis cum et! Commodi deserunt officia necessitatibus doloribus assumenda veritatis amet magnam reiciendis, iste aliquam, perspiciatis tempora dolor dolorum iure ducimus.</p>
+                <aside>
+                    <p>Article writed by Antony Angels</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+       Developed by Saymon-Kauffmann.
+    </footer>
 </body>
 </html>
