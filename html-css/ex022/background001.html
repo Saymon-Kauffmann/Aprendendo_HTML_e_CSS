@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Image Test</title>
+    <style>
+        
+        body {
+            background-image: url('images/wallpaper001.jpg');
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+        .square {
+            display: inline-flex;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        #sq1 {
+            display: flex;
+            background-color: pink;
+        }
+
+        #sq2 {
+            background-image: linear-gradient(to right, purple, rgb(228, 20, 228))
+        }
+
+        #sq3 {
+            background-image: url('images/pattern003.png')
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="square" id="sq1">
+
+    </div>
+
+    <div class="square" id="sq2">
+
+    </div>
+
+    <div class="square" id="sq3">
+
+    </div>
+
+</body>
+</html>
