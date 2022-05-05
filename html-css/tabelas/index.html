@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse; 
+            border: 5px solid darkred; 
+        }
+
+        tr {
+            background-color: pink;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        #table1 {
+            text-align: center;
+        }
+
+        tr.table2 {
+            background-color: lightblue;
+            text-transform: lowercase;
+        }
+        
+        .table3 {
+            background-color: lightgreen;
+            font-weight: bold;
+        }
+
+        #b2 {
+            text-align: right;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: blue;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My first table</h1>
+    <p>It's not to be beautiful or usefull, it's to practice and learning all the commands that are possible</p>
+    <table>
+        <tr id="table1"> 
+            <td>A1
+            <td>B1
+            <td>C1
+
+        <tr class="table2">
+            <td>A2</td>
+            <td id="b2">B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr class="table2">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr class="table3">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
